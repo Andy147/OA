@@ -7,248 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf56d7ee-3114-4435-a620-3f75993b6dfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oa/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/logbak.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/user-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/Nopassed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/ProjectDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/ProjectProcess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addDepartment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addNotice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addPosition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addbook.html.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addcopy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addpaper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addpatent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addreward.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addstandard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addthings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminIndex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminIndex.html.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminReward.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/admincate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/cate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/pintuer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/department.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/download.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editDepartment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editNotice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editPosition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editUserInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editorProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/finishStage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/passcode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/tmbg-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/Clock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/pintuer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/leftAdmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/leftproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listcopyright.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listpaper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listpatent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listresult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listreward.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/liststandard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listthings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/lognew.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/midStage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/newtable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/noticeDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/noticeInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/pass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/personnew.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/saveProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/setupProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/staging.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/tableAdmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/tableproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/topAdmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/topproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/updatePassWd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/xmList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/logbak.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/mapper/user-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/org/oa/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/org/oa/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/jackson-core-2.8.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/jackson-databind-2.8.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/logback-classic-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/logback-core-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/mysql-connector-java-5.1.41.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/ognl-3.1.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-aop-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-beans-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-context-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-core-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-expression-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-jdbc-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-test-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-tx-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-web-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-webmvc-4.3.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/Nopassed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/ProjectDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/ProjectProcess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addDepartment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addNotice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addPosition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addbook.html.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addcopy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addpaper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addpatent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addreward.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addstandard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/addthings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/adminIndex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/adminIndex.html.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/adminInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/adminProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/adminReward.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/adminUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/admincate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/cate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/css/pintuer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/department.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/download.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/editDepartment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/editNotice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/editPosition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/editUserInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/editorProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/finishStage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/images/passcode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/images/tmbg-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/images/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/js/Clock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/js/pintuer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/leftAdmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/leftproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/listbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/listcopyright.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/listpaper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/listpatent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/listresult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/listreward.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/liststandard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/listthings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/lognew.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/midStage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/newtable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/noticeDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/noticeInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/pass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/personnew.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/saveProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/setupProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/staging.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/tableAdmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/tableproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/topAdmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/topproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/updatePassWd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OA/views/xmList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logbak.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/oa/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/oa/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -326,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/oa/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="1">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -636,15 +395,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563149482953</updated>
-      <workItem from="1563149487047" duration="12815000" />
+      <workItem from="1563149487047" duration="14802000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1563182801618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563182801618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12815000" />
+    <option name="totallyTimeSpent" value="14802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -652,7 +420,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.4599018" />
       <window_info anchor="bottom" id="Spring" />
@@ -667,7 +435,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5237316" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.2557377" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.2557377" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -684,6 +452,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/js/lib/jquery-ui.js">
@@ -825,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/oa/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="1">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
