@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OA:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf56d7ee-3114-4435-a620-3f75993b6dfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oa/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oa/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/logbak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/user-mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/Nopassed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/ProjectDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/ProjectProcess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addDepartment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addNotice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addPosition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addbook.html.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addcopy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addpaper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addpatent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addreward.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addstandard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addthings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminIndex.html.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminReward.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/admincate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/pintuer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/department.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editDepartment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editNotice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editPosition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editUserInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editorProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/finishStage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/passcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/tmbg-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/images/y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/Clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/pintuer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/leftAdmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/leftproject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listcopyright.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listpaper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listpatent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listresult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listreward.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/liststandard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/listthings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/lognew.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/midStage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/newtable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/noticeDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/noticeInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/pass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/personnew.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/saveProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/setupProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/staging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/tableAdmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/tableproject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/topAdmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/topproject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/updatePassWd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/xmList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/logbak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/mapper/user-mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/org/oa/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/org/oa/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/jackson-core-2.8.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/jackson-databind-2.8.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/logback-classic-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/logback-core-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/mysql-connector-java-5.1.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/ognl-3.1.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-aop-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-beans-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-context-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-core-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-expression-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-jdbc-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-test-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-tx-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-web-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/spring-webmvc-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/Nopassed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/ProjectDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/ProjectProcess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addDepartment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addNotice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addPosition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addbook.html.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addcopy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addpaper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addpatent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addreward.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addstandard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/addthings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/adminIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/adminIndex.html.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/adminInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/adminProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/adminReward.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/adminUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/admincate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/css/pintuer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/department.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/editDepartment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/editNotice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/editPosition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/editUserInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/editorProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/finishStage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/images/passcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/images/tmbg-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/images/y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/js/Clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/js/pintuer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/leftAdmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/leftproject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/listbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/listcopyright.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/listpaper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/listpatent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/listresult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/listreward.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/liststandard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/listthings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/lognew.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/midStage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/newtable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/noticeDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/noticeInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/pass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/personnew.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/saveProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/setupProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/staging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/tableAdmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/tableproject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/topAdmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/topproject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/updatePassWd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OA/views/xmList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logbak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/oa/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/oa/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+              <folding>
+                <element signature="e#1017#1033#0" expanded="true" />
+                <element signature="e#1074#1087#0" expanded="true" />
+                <element signature="e#1127#1145#0" expanded="true" />
+                <element signature="e#1187#1205#0" expanded="true" />
+                <element signature="e#1252#1273#0" expanded="true" />
+                <element signature="e#1319#1340#0" expanded="true" />
+                <element signature="e#1392#1419#0" expanded="true" />
+                <element signature="e#1469#1494#0" expanded="true" />
+                <element signature="e#1549#1579#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/oa/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-753">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/user-mapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/oa/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-800">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1150">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-183">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="27" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resource/logbak.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/user-mapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/oa/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resource/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/index.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/oa/controller/UserController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-36" />
+    <option name="y" value="74" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ideaPro\OA\src\main\webapp" />
+      <recent name="C:\ideaPro\OA\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ideaPro\OA\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\ideaPro\OA\src\main\webapp" />
+      <recent name="C:\ideaPro\OA\src\main\webapp\js" />
+      <recent name="C:\ideaPro\OA\src\main\webapp\css" />
+      <recent name="C:\ideaPro\OA\src\main\webapp\view" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="OA:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/OA_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_OA" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2171" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="OA:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf56d7ee-3114-4435-a620-3f75993b6dfd" name="Default Changelist" comment="" />
+      <created>1563149482953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563149482953</updated>
+      <workItem from="1563149487047" duration="12815000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12815000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.4599018" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.28196722" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5237316" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.2557377" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/js/lib/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/colors/blue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/revslider-demo/js/jquery.themepunch.tools.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trip-detail-dark.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/logbak.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/user-mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/oa/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/css/pintuer.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#1017#1033#0" expanded="true" />
+            <element signature="e#1074#1087#0" expanded="true" />
+            <element signature="e#1127#1145#0" expanded="true" />
+            <element signature="e#1187#1205#0" expanded="true" />
+            <element signature="e#1252#1273#0" expanded="true" />
+            <element signature="e#1319#1340#0" expanded="true" />
+            <element signature="e#1392#1419#0" expanded="true" />
+            <element signature="e#1469#1494#0" expanded="true" />
+            <element signature="e#1549#1579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/oa/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
