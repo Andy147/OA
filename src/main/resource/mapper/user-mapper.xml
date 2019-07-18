@@ -1,9 +1,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.user.Mapper">
-<select id="queryUser" parameterType="User" resultMap="User">
-
-</select>
+    <mapper namespace="org.oa.dao.IUserDao">
+    <select id="getUserByName" parameterType="java.lang.String" resultType="org.oa.model.User">
+       SELECT t.`user_id` , t.`user_account`  , t.`user_pwd` , t.`last_time` FROM users t WHERE t.`user_account` = #{name}
+    </select>
 
 </mapper>
