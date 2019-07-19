@@ -18,6 +18,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.UnsupportedEncodingException;
 
 @Controller
 @RequestMapping("/user")
@@ -28,12 +29,46 @@ public class UserController {
     @Autowired
     HttpSession session;
     private String verification;//记录验证码
-    @RequestMapping("login.do" )
+    @RequestMapping("startAction.do")
+    public String execute()
+    {
+        System.out.println("进入登录页面。。。。");
+        return "login";
+    }
+    @RequestMapping("getVerification.do")
     @ResponseBody
-    public String login(HttpServletRequest request, HttpServletResponse response){
+    public String getVerification(HttpServletRequest request, HttpServletResponse response)
+    {
+
+        verification = MyVerificationCode.getRamCode(6 , null);
+        System.out.println("verification:" + verification);
+        BufferedImage image = MyVerificationCode.getImageFromCode(verification ,
+                80 , 32 , 5 , new Color(0xcccccc));
+        OutputStream out = null;
+        try {
+            out = response.getOutputStream();
+            ImageIO.write(image , "png" , out);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally {
+            try {
+                if (out!=null)
+                {
+                    out.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return "";
+    }
+    @RequestMapping(value = "login.do"  , produces = {"application/json;charset=UTF-8"})
+    @ResponseBody
+    public String login(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
         String userName = request.getParameter("name");
         String pwd =  request.getParameter("pwd");
         String code = request.getParameter("code");
+        response.setContentType("application/json;charset=UTF-8");
         JSONObject reply = new JSONObject();
         if(userName != null && !"".equals(userName) && pwd !=null && !"".equals(pwd))
         {
@@ -43,9 +78,9 @@ public class UserController {
             {
                 reply.put("statu" , -1);
                 reply.put("reason" , "验证码不正确");
+                String str = reply.toString(2);
                 return reply.toString(2);
-            }
-            System.out.println("穿绳来的:" + verification);
+            };
             //获取用户名和密码
             User user = userServer.getUserByName(userName , pwd);
             if (user != null)
@@ -60,31 +95,6 @@ public class UserController {
                 reply.put("reason" , "用户名或密码错误");
             }
         }
-        else
-        {
-            verification = MyVerificationCode.getRamCode(6 , null);
-            System.out.println("verification:" + verification);
-            BufferedImage image = MyVerificationCode.getImageFromCode(verification ,
-                    80 , 32 , 5 , new Color(0xcccccc));
-            OutputStream out = null;
-            try {
-                out = response.getOutputStream();
-                ImageIO.write(image , "png" , out);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }finally {
-                try {
-                    if (out!=null)
-                    {
-                        out.close();
-                    }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-        reply.put("statu" , -1);
-        reply.put("reason" , "用户名或密码错误");
         return reply.toString(2);
     }
     @RequestMapping("index.do")
@@ -92,6 +102,18 @@ public class UserController {
     {
 
         return "index";
+    }
+
+    /**
+     * 登出
+     * @return
+     */
+    @RequestMapping("logout.do")
+    public String logout()
+    {
+        //先将session设置为空
+        session.setAttribute("user" , null);
+        return "redirect:startAction.do";
     }
 
 }
