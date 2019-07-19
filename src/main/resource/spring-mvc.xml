@@ -10,14 +10,27 @@
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
+
     <!-- 扫描web相关的bean -->
     <context:component-scan base-package="org.oa"/>
 
     <!-- 开启SpringMVC注解模式 -->
     <mvc:annotation-driven/>
 
+
+
     <!-- 静态资源默认servlet配置 -->
     <mvc:default-servlet-handler/>
+
+    <!--配置拦截器-->
+    <mvc:interceptors>
+        <bean class="org.oa.filter.EncodeInterceptor"/>   <!--配置一个全局拦截器-->
+
+        <mvc:interceptor>
+            <mvc:mapping path="/user/*"/>
+            <bean class="org.oa.filter.EncodeInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
     <!-- 配置jsp 显示ViewResolver -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
