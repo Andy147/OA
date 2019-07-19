@@ -5,7 +5,7 @@
 <web-app>
 
   <welcome-file-list>
-    <welcome-file>/views/login.html</welcome-file>
+    <welcome-file>views/welcome.html</welcome-file>
   </welcome-file-list>
   <!-- 编码过滤器 -->
   <filter>
