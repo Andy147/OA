@@ -1,6 +1,5 @@
 package org.oa.service.impl;
 
-import net.sf.json.JSONObject;
 import org.oa.dao.IUserDao;
 import org.oa.model.User;
 import org.oa.service.IUserServer;
