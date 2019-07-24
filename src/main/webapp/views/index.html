@@ -28,15 +28,17 @@
   </ul>
     
 
-    <h2><span class="icon-pencil-square-o"></span>我的项目</h2>
-  <ul >
-    <li><a href="tableproject.html" target="right"><span class="icon-caret-right"></span>所有项目</a></li>
-    <li><a href="saveProject.html" target="right"><span class="icon-caret-right"></span>保存阶段</a></li>
-    <li><a href="setupProject.html" target="right"><span class="icon-caret-right"></span>立项阶段</a></li>  
-    <li><a href="midStage.html" target="right"><span class="icon-caret-right"></span>中期阶段</a></li>
-    <li><a href="finishStage.html" target="right"><span class="icon-caret-right"></span>结题阶段</a></li>  
-    <li><a href="Nopassed.html" target="right"><span class="icon-caret-right"></span>结题未通过</a></li>  
-  </ul>
+    <div style="height: 500px; overflow:scroll">
+    <th:block th:each="menu : ${menuList}">
+       <h2 ><span class="icon-pencil-square-o" th:text="${menu.parent.menu_name}"></span ></h2>
+         <ul >
+             <th:block th:each="children : ${menu.children}" >
+                <li><a href="../views/404.html" target="right"><span class="icon-caret-right" th:text="${children.menu_name}"></span></a></li>
+             </th:block>
+         </ul>
+    </th:block>
+    </div>
+
 </div>
 <script type="text/javascript">
 $(function(){
