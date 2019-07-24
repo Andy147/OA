@@ -1,14 +1,19 @@
 package org.oa.controller;
 
 import com.sun.deploy.net.HttpResponse;
-import net.sf.json.JSONObject;
+import org.json.simple.JSONObject;
 import org.oa.model.User;
+import org.oa.service.ConfigServer;
 import org.oa.service.IUserServer;
 import org.oa.utils.MyVerificationCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
@@ -19,6 +24,8 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
+import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/user")
@@ -28,6 +35,8 @@ public class UserController {
     IUserServer userServer;
     @Autowired
     HttpSession session;
+    @Autowired
+    ConfigServer configServer;
     private String verification;//记录验证码
     @RequestMapping("startAction.do")
     public String execute()
@@ -37,8 +46,7 @@ public class UserController {
     }
     @RequestMapping("getVerification.do")
     @ResponseBody
-    public String getVerification(HttpServletRequest request, HttpServletResponse response)
-    {
+    public String getVerification(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
         verification = MyVerificationCode.getRamCode(6 , null);
         System.out.println("verification:" + verification);
@@ -51,13 +59,9 @@ public class UserController {
         } catch (IOException e) {
             e.printStackTrace();
         }finally {
-            try {
-                if (out!=null)
-                {
-                    out.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
+            if (out!=null)
+            {
+               out.close();
             }
         }
         return "";
@@ -74,13 +78,15 @@ public class UserController {
         {
             //先判断验证码
             System.out.println("code:" + code +"==="+ "verification:" + verification);
+            /*
             if (!code.toUpperCase().equals(verification.toUpperCase()))
             {
                 reply.put("statu" , -1);
                 reply.put("reason" , "验证码不正确");
-                String str = reply.toString(2);
-                return reply.toString(2);
+                String str = reply.toString();
+                return reply.toString();
             };
+             */
             //获取用户名和密码
             User user = userServer.getUserByName(userName , pwd);
             if (user != null)
@@ -95,12 +101,17 @@ public class UserController {
                 reply.put("reason" , "用户名或密码错误");
             }
         }
-        return reply.toString(2);
+        return reply.toString();
     }
     @RequestMapping("index.do")
-    public String turn2Index()
+    public String turn2Index(ModelMap model)
     {
+        User user = (User) session.getAttribute("user");
+        //List list = configServer.getMenu();
 
+        List list = configServer.getMenuByUserId(user.getUser_id());
+        System.out.println("0000" + list.toString());
+        model.addAttribute("menuList" , list);
         return "index";
     }
 
